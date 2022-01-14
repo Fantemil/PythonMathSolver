@@ -9,17 +9,32 @@ The third option in Kinetic Energy isnt available yet!
 Mac OS:
 - Open a new terminal
 - If not done already install homebrew
-- /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 - or
-- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 - Install python3
-- brew install python3
+
+```
+brew install python3
+```
 - Install git
-- brew install git
+
+```
+brew install git
+```
 - Installing the script
-- git clone https://github.com/Fantemil/PythonMathSolver
-- cd PythonMathSolver
-- python3 PythonMathSolver.py
+
+```
+git clone https://github.com/Fantemil/PythonMathSolver
+cd PythonMathSolver
+python3 PythonMathSolver.py
+```
 
 There you go
 
