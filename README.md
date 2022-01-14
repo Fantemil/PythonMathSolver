@@ -42,11 +42,22 @@ Windows:
 - i don't have a Windows Machine but it should be like that:
 - Install python3 from the official Website
 - Open CMD or PowerShell
-- Start python3 by writing "python3"
+- Start python3 by writing 
+```
+python3
+```
 - if no Error shows up you should be fine
 - Download the Code
 - Extract the Zip
-- in Powershell/CMD type "python3 PythonMathSolver.py"
+- in Powershell/CMD type 
+- go in your directory
+```
+cd YOUR_DIRECTORY
+```
+- run it
+```
+python3 PythonMathSolver.py
+```
 - Thats it!
 
 Linux:
