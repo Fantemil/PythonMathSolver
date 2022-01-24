@@ -114,4 +114,45 @@ if InPhysic == "2":
     print("-------------")
     print("♥ Thank you for using PythonMathSolver made with Love by Emil Toth ♥")
 
+if InPhysic == "3":
+    clear_console()
+    print("Please tell me your Kinetic Energy (In Joule)")
+    KineticEnergy = input(">>> ")
+    print("Please tell me your Velocity (In km/h)")
+    VelocityKmh = input(">>> ")
+    clear_console()
+    print("Your Problem is beeing solved in 2 seconds!")
+    time.sleep(1)
+    clear_console()
+    print("Your Problem is beeing solved in 1 second!")
+    time.sleep(1)
+    clear_console()
+    print("Your km/h are " + str(VelocityKmh) + " km/h")
+    VelocityMs = int(VelocityKmh) / 3.6
+    print("Your m/s are " + str(VelocityMs) + " m/s")
+    
+    Result = float(KineticEnergy) / (0.5 * float(VelocityMs) ** 2)
+    print("Your Mass is " + str(Result) + " kg")
+    print("A SUMMED UP RESULT OF YOUR CALCULATION IS LOADING!")
+    time.sleep(3)
+    clear_console()
+    print("Here is a Result of your Calculation!")
+    print("")
+    print("You were calculating the Mass with your Kinetic Energy and Velocity of your Object")
+    print("")
+    print("Your Kinetic Energy was " + str(KineticEnergy) + " Joule")
+    print("")
+    print("Your Velocity was " + str(VelocityMs) + " m/s" + "  or " + str(VelocityKmh) + " km/h")
+    print("")
+    print("Your Final Result, the Mass, was " + str(Result) + " kg")
+    print("")
+    print("")
+    print("The Formula used was the standard formula to calculate the Mass from the Kinetic Energy and the Velocity in Physics also known as Ekin : (0.5 ⋅ v²) ")
+    print("-------------")
+    print("♥ Thank you for using PythonMathSolver made with Love by Emil Toth ♥")
+
+
+
+
+
 
