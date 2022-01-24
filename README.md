@@ -3,7 +3,7 @@ This is my first ever Python project! I made this Project to make calculating wi
 
 # What Can it do?
 The PythonMathSolver can currently only calculate formulas in Physics because its in early development.
-The third option in Kinetic Energy isnt available yet!
+You can now calculate everything in the section Kinetic Energy!
 
 # How to
 Mac OS:
