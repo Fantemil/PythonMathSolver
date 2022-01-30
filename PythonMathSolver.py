@@ -6,17 +6,11 @@ import math
 MacOS = "1"
 Windows= "2"
 
-print("⚠ Please state your Operating System due to compatibility issues ⚠")
-print("")
-print("Mac OS/Any Linux Distro or flavour (1)   Windows (2)")
-Opsys = input(">>> ")
-if Opsys == MacOS:
-    def clear_console():
+def clear_console():
+    if os.name == 'nt':
+        os.system('cls')
+    else:
         os.system('clear')
-if Opsys == Windows:
-    def clear_console():
-        os.system('cls')  
-
 
 clear_console()
 print ("════════════════════════════════════════════════════════════════════")
@@ -30,6 +24,7 @@ Problem = input(">>> ")
 Physics = "1"
 Kinetic = "1"
 One = ("1")
+InPhysic = "0"
 clear_console()
 if Problem == Physics:
     print ("So you are having Difficulties in Physics, What do you want me to calculate?")
@@ -37,7 +32,7 @@ if Problem == Physics:
     print ("---KINETIC ENERGY---" + "\n The Kinetic Energy (1) The Velocity (2) The Mass (3)")
     InPhysic = input(">>> ")
 clear_console()
-if InPhysic == 1:
+if InPhysic == "1":
     print ("Please tell me the Mass of your Object")
     print(" ")
     Mass = input("In Kilograms >>> ")
