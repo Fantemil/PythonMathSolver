@@ -178,7 +178,7 @@ if InPhysic == "3":
         print("-------------")
         print("♥ Thank you for using PythonMathSolver made with Love by Emil Toth ♥")
     except:
-        print("Sorry! Something went wrong, please try again.")
+        print("Sorry! Something went wrong, please try again. ")
 
 
 
